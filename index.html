@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="hero">
+      <h1>Basic Calculator</h1>
+    </header>
+
+    <main class="calculator">
+      <div class="box">
+        <label for="first number" class="label">First Number</label>
+        <input type="number" class="input input-one" />
+      </div>
+
+      <div class="box">
+        <label for="first number" class="label">Second Number</label>
+        <input type="number" class="input input-two" />
+      </div>
+      <div class="operators">
+        <button class="button btn-add">+</button>
+        <button class="button btn-sub">-</button>
+        <button class="button btn-prod">*</button>
+        <button class="button btn-div">/</button>
+        <button class="button btn-rst">Reset</button>
+      </div>
+      <div class="output"></div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
